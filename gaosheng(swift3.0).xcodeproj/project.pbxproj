@@ -8,20 +8,36 @@
 
 /* Begin PBXBuildFile section */
 		442420DC1E8379A700844BA6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 442420DB1E8379A700844BA6 /* AppDelegate.swift */; };
-		442420DE1E8379A700844BA6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 442420DD1E8379A700844BA6 /* ViewController.swift */; };
 		442420E11E8379A700844BA6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 442420DF1E8379A700844BA6 /* Main.storyboard */; };
 		442420E31E8379A700844BA6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 442420E21E8379A700844BA6 /* Assets.xcassets */; };
 		442420E61E8379A700844BA6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 442420E41E8379A700844BA6 /* LaunchScreen.storyboard */; };
+		442420F91E83A39000844BA6 /* Macro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 442420F81E83A39000844BA6 /* Macro.swift */; };
+		442420FC1E83A94B00844BA6 /* GSBaseNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 442420FB1E83A94B00844BA6 /* GSBaseNavigationController.swift */; };
+		442420FE1E83A96000844BA6 /* GSBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 442420FD1E83A96000844BA6 /* GSBaseViewController.swift */; };
+		442421001E83AC7200844BA6 /* GSBaseTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 442420FF1E83AC7200844BA6 /* GSBaseTabBarController.swift */; };
+		442421021E83AC8D00844BA6 /* GSHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 442421011E83AC8D00844BA6 /* GSHomeViewController.swift */; };
+		442421041E83AC9800844BA6 /* GSMineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 442421031E83AC9800844BA6 /* GSMineViewController.swift */; };
+		442421061E83ACA600844BA6 /* GSBreakNewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 442421051E83ACA600844BA6 /* GSBreakNewsViewController.swift */; };
+		442421081E83ACB800844BA6 /* GSIMessagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 442421071E83ACB800844BA6 /* GSIMessagesViewController.swift */; };
+		4424210A1E83ACD000844BA6 /* GSPersenCenterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 442421091E83ACD000844BA6 /* GSPersenCenterViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		442420D81E8379A700844BA6 /* gaosheng(swift3.0).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "gaosheng(swift3.0).app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		442420DB1E8379A700844BA6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		442420DD1E8379A700844BA6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		442420E01E8379A700844BA6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		442420E21E8379A700844BA6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		442420E21E8379A700844BA6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../Assets.xcassets; sourceTree = "<group>"; };
 		442420E51E8379A700844BA6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		442420E71E8379A700844BA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		442420E71E8379A700844BA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../Info.plist; sourceTree = "<group>"; };
+		442420F81E83A39000844BA6 /* Macro.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Macro.swift; sourceTree = "<group>"; };
+		442420FB1E83A94B00844BA6 /* GSBaseNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GSBaseNavigationController.swift; sourceTree = "<group>"; };
+		442420FD1E83A96000844BA6 /* GSBaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GSBaseViewController.swift; sourceTree = "<group>"; };
+		442420FF1E83AC7200844BA6 /* GSBaseTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GSBaseTabBarController.swift; sourceTree = "<group>"; };
+		442421011E83AC8D00844BA6 /* GSHomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GSHomeViewController.swift; sourceTree = "<group>"; };
+		442421031E83AC9800844BA6 /* GSMineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GSMineViewController.swift; sourceTree = "<group>"; };
+		442421051E83ACA600844BA6 /* GSBreakNewsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GSBreakNewsViewController.swift; sourceTree = "<group>"; };
+		442421071E83ACB800844BA6 /* GSIMessagesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GSIMessagesViewController.swift; sourceTree = "<group>"; };
+		442421091E83ACD000844BA6 /* GSPersenCenterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GSPersenCenterViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,13 +71,117 @@
 			isa = PBXGroup;
 			children = (
 				442420DB1E8379A700844BA6 /* AppDelegate.swift */,
-				442420DD1E8379A700844BA6 /* ViewController.swift */,
+				442420FA1E83A92900844BA6 /* Base */,
+				442420EF1E837EB300844BA6 /* ViewController */,
+				442420F51E837F9800844BA6 /* CustomView */,
+				442420ED1E837EB300844BA6 /* Model */,
+				442420EE1E837EB300844BA6 /* ThirdLib */,
+				442420F61E837F9800844BA6 /* Tools */,
+				442420F71E83A17A00844BA6 /* Supportingfile */,
+			);
+			path = "gaosheng(swift3.0)";
+			sourceTree = "<group>";
+		};
+		442420ED1E837EB300844BA6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		442420EE1E837EB300844BA6 /* ThirdLib */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ThirdLib;
+			sourceTree = "<group>";
+		};
+		442420EF1E837EB300844BA6 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				442420F11E837EB300844BA6 /* Home */,
+				442420F31E837EB300844BA6 /* Mine */,
+				442420F01E837EB300844BA6 /* BreakNews */,
+				442420F21E837EB300844BA6 /* Imessages */,
+				442420F41E837EB300844BA6 /* PresenCenter */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		442420F01E837EB300844BA6 /* BreakNews */ = {
+			isa = PBXGroup;
+			children = (
+				442421051E83ACA600844BA6 /* GSBreakNewsViewController.swift */,
+			);
+			path = BreakNews;
+			sourceTree = "<group>";
+		};
+		442420F11E837EB300844BA6 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				442421011E83AC8D00844BA6 /* GSHomeViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		442420F21E837EB300844BA6 /* Imessages */ = {
+			isa = PBXGroup;
+			children = (
+				442421071E83ACB800844BA6 /* GSIMessagesViewController.swift */,
+			);
+			path = Imessages;
+			sourceTree = "<group>";
+		};
+		442420F31E837EB300844BA6 /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				442421031E83AC9800844BA6 /* GSMineViewController.swift */,
+			);
+			path = Mine;
+			sourceTree = "<group>";
+		};
+		442420F41E837EB300844BA6 /* PresenCenter */ = {
+			isa = PBXGroup;
+			children = (
+				442421091E83ACD000844BA6 /* GSPersenCenterViewController.swift */,
+			);
+			path = PresenCenter;
+			sourceTree = "<group>";
+		};
+		442420F51E837F9800844BA6 /* CustomView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CustomView;
+			sourceTree = "<group>";
+		};
+		442420F61E837F9800844BA6 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		442420F71E83A17A00844BA6 /* Supportingfile */ = {
+			isa = PBXGroup;
+			children = (
 				442420DF1E8379A700844BA6 /* Main.storyboard */,
 				442420E21E8379A700844BA6 /* Assets.xcassets */,
 				442420E41E8379A700844BA6 /* LaunchScreen.storyboard */,
 				442420E71E8379A700844BA6 /* Info.plist */,
+				442420F81E83A39000844BA6 /* Macro.swift */,
 			);
-			path = "gaosheng(swift3.0)";
+			path = Supportingfile;
+			sourceTree = "<group>";
+		};
+		442420FA1E83A92900844BA6 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				442420FB1E83A94B00844BA6 /* GSBaseNavigationController.swift */,
+				442420FD1E83A96000844BA6 /* GSBaseViewController.swift */,
+				442420FF1E83AC7200844BA6 /* GSBaseTabBarController.swift */,
+			);
+			path = Base;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -90,6 +210,7 @@
 		442420D01E8379A700844BA6 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = GS;
 				LastSwiftUpdateCheck = 0820;
 				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = "刘高升";
@@ -137,7 +258,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				442420DE1E8379A700844BA6 /* ViewController.swift in Sources */,
+				442420F91E83A39000844BA6 /* Macro.swift in Sources */,
+				442421041E83AC9800844BA6 /* GSMineViewController.swift in Sources */,
+				442420FE1E83A96000844BA6 /* GSBaseViewController.swift in Sources */,
+				442421001E83AC7200844BA6 /* GSBaseTabBarController.swift in Sources */,
+				442421021E83AC8D00844BA6 /* GSHomeViewController.swift in Sources */,
+				442421061E83ACA600844BA6 /* GSBreakNewsViewController.swift in Sources */,
+				442420FC1E83A94B00844BA6 /* GSBaseNavigationController.swift in Sources */,
+				442421081E83ACB800844BA6 /* GSIMessagesViewController.swift in Sources */,
+				4424210A1E83ACD000844BA6 /* GSPersenCenterViewController.swift in Sources */,
 				442420DC1E8379A700844BA6 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -151,6 +280,7 @@
 				442420E01E8379A700844BA6 /* Base */,
 			);
 			name = Main.storyboard;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		442420E41E8379A700844BA6 /* LaunchScreen.storyboard */ = {
@@ -159,6 +289,7 @@
 				442420E51E8379A700844BA6 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -261,6 +392,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = XSSS2AY4K7;
 				INFOPLIST_FILE = "gaosheng(swift3.0)/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "gaosheng-swift3.0-.gaosheng-swift3-0-";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -274,6 +406,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = XSSS2AY4K7;
 				INFOPLIST_FILE = "gaosheng(swift3.0)/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "gaosheng-swift3.0-.gaosheng-swift3-0-";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -300,6 +433,7 @@
 				442420EC1E8379A700844BA6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

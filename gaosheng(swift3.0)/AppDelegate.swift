@@ -12,10 +12,18 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
+    var rootViewController: GSBaseTabBarController?
+    
 
-
+    //let 常量 可以定义单利，是线程安全的
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        window = UIWindow.init()
+        window?.frame = kScreenBounds
+        rootViewController = GSBaseTabBarController()
+        window?.rootViewController = rootViewController
+        window?.makeKeyAndVisible()
+    
         return true
     }
 
